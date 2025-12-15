@@ -1,0 +1,196 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuentes y colores */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2b2b2b;
+    /* Fondo gris oscuro */
+    color: #D1D1D1;
+    /* Texto claro */
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* Títulos principales */
+h1 {
+    font-family: 'Impact', sans-serif;
+    font-size: 50px;
+    color: #D1D1D1;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    /* Sombra */
+}
+
+/* Títulos secundarios */
+h2,
+h3 {
+    color: #8a8a8a;
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+    margin: 25px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Línea horizontal */
+hr {
+    border: 0;
+    border-top: 3px solid #3a3a3a;
+    margin: 40px 0;
+}
+
+/* Párrafos */
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Estilo de las listas */
+ul {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 10px 0;
+    position: relative;
+    padding-left: 30px;
+    /* Espacio para el icono */
+    color: #D1D1D1;
+}
+
+ul li::before {
+    content: '\2022';
+    /* Bullet */
+    color: #7a7a7a;
+    /* Gris más oscuro */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 24px;
+}
+
+/* Enlaces */
+a {
+    color: #88b04b;
+    /* Verde militar */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    color: #7a7a7a;
+    text-decoration: underline;
+    transform: translateX(5px);
+    /* Efecto de deslizamiento */
+}
+
+/* Fondo para secciones */
+section {
+    background-image: url('imagenes/fondo-camuflaje.jpg');
+    /* Fondo tipo camuflaje */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    border-radius: 8px;
+    color: #fff;
+}
+
+/* Estilo de las imágenes */
+img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 10px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo de los videos */
+iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+    margin: 30px auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    color: #D1D1D1;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 14px;
+    border-top: 3px solid #3a3a3a;
+}
+
+footer a {
+    color: #88b04b;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #7a7a7a;
+}
+
+/* Alineación de texto */
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+/* Diseño responsivo para móviles */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2,
+    h3 {
+        font-size: 26px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+}
+
+Explicación del diseño:
