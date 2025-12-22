@@ -15,7 +15,8 @@ body {
     line-height: 1.6;
     padding: 0 20px;
 }
-
+button { background-color: #88b04b;
+    }
 /* Títulos principales */
 h1 {
     font-family: 'Impact', sans-serif;
@@ -192,5 +193,3 @@ footer a:hover {
         padding: 40px 0;
     }
 }
-
-Explicación del diseño:

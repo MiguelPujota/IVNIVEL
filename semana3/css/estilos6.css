@@ -12,7 +12,8 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
 }
-
+button { background-color: #3f630a;
+    }
 /* Title styling */
 h1, h2, h3 {
     color: #ff6600; /* A striking orange for titles */

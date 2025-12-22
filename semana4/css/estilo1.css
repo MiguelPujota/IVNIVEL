@@ -1,0 +1,43 @@
+//* Personalización de estilos */
+.btn-primary {
+  background-color: #ff5733;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Cards personalizadas */
+.card {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Media query propia */
+@media (max-width: 576px) {
+  body {
+    background-color: #0d63b9;
+  }
+  h1 {
+    color: #ff5733;
+  }
+}
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    
+}
+body {
+    background-color: #e4dbdb88; /* Dark background */
+    color: #080202; /* Light text */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
