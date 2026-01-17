@@ -1,0 +1,93 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+/* Imágenes fijas en los extremos */
+.imagen-izquierda,
+.imagen-derecha {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;   /* ajusta el tamaño según tu diseño */
+  height: auto;
+}
+
+.imagen-izquierda {
+  left: 20px;
+}
+
+.imagen-derecha {
+  right: 20px;
+}
+
+/* Formulario centrado */
+form {
+  background: #fff;
+  padding: 25px 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  max-width: 350px;
+  width: 100%;
+  text-align: left;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #444;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  font-size: 0.85em;
+}
+
+/* Botones */
+.botones {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#btnEnviar {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button[type="reset"] {
+  background-color: #f44336;
+  color: white;
+}

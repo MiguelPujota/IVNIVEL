@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+       <title><center></center>Formulario con Validaciones</title>
+       </header>
+       <link rel="stylesheet" href="styles.css" />
+       <body>
+  <!-- Imagen izquierda -->
+  <img src="imagenes/Beneficios-tarjeta-banco-pichincha-historia.jpg" alt="Imagen izquierda" class="imagen-izquierda" />
+
+   <!-- Imagen derecha -->
+  <img src="imagenes/tarjetaBPi.jpg" alt="Imagen derecha" class="imagen-derecha" />
+</body>
+
+   <body>
+  <form id="registroForm" novalidate>
+       <h2>Registro de Usuario</h2>
+
+       <label for="nombre">Nombre:</label>
+       <input type="text" id="nombre" required />
+       <span class="error" id="errorNombre"></span>
+
+       <label for="email">Correo electrónico:</label>
+       <input type="email" id="email" required />
+       <span class="error" id="errorEmail"></span>
+
+       <label for="password">Contraseña:</label>
+       <input type="password" id="password" required />
+       <span class="error" id="errorPassword"></span>
+
+       <label for="confirmPassword">Confirmar contraseña:</label>
+       <input type="password" id="confirmPassword" required />
+      <span class="error" id="errorConfirmPassword"></span>
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" required />
+      <span class="error" id="errorEdad"></span>
+
+    <div class="botones">
+      <button type="submit" id="btnEnviar" disabled>Enviar</button>
+      <button type="reset">Reiniciar</button>
+    </div>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
